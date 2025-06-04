@@ -1,6 +1,20 @@
-# **DeepSeek-RAG Chatbot**
+# **DeepSeek-RAG Chatbot: ViVO**
 
-This chatbot enables **fast, accurate, and explainable retrieval of information** from PDFs, DOCX, and TXT files using:
+The original goal behind this project was to create a self-hosted AI assistant designed for internal use at Vineyard Offshore. It integrates with Microsoft Teams, SharePoint, and Microsoft 365 to streamline knowledge retrieval, support, and process navigation.
+
+🔧 Core Features:
+Secure Document Retrieval: Uses RAG (Retrieval-Augmented Generation) or optionally Azure Cognitive Search for answering questions from company documents.
+
+Local LLM: Employs models like DeepSeek or Llama 3.2, hosted locally (no GPT-4 fallback).
+
+Authentication & Access Control: Uses Azure AD to ensure responses are scoped to what the user is authorized to view.
+
+Deployment Targets: Microsoft Teams app and a floating widget on SharePoint.
+
+Backend Stack: FastAPI, local vector database (FAISS/ChromaDB), sentence-transformers for embeddings.
+
+
+This refactored chatbot enables **fast, accurate, and explainable retrieval of information** from PDFs, DOCX, and TXT files using:
 
 - **DeepSeek-7B**
 - **BM25**
