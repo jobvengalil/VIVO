@@ -46,8 +46,8 @@ You can run the chatbot in one of two ways:
 ### A. Clone & Set Up Environment
 
 ```bash
-git clone https://github.com/SaiAkhil066/DeepSeek-RAG-Chatbot.git
-cd DeepSeek-RAG-Chatbot
+git clone https://github.com/jobvengalil/VIVO.git
+cd VIVO.git
 
 python -m venv venv
 
